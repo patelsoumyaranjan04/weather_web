@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    height: 100%;
+    width: 100%;
+    /* background-color: lightblue; */
+    color: black;
+    background-image: url('background.jpeg');
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+
+}
+.container h1{
+    padding: 15px 0;
+}
+.container input[type="text"]{
+    width: 70%;
+    height: 5vh;
+    text-transform: capitalize;
+    font-weight: bolder;
+    border: 0;
+    outline: 0;
+    padding: 0 10px;
+
+}
+::placeholder{
+    color: black;
+}
+.btn{
+    margin: 10px 0;
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 1px solid black;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.showData{
+    margin: 100px 0;
+    color: black;
+
+
+}
+
+.showData ul{
+    list-style-type: none;
+}
+.showData .city{
+    font-size: 3rem;
+}
+.showData .temp{
+    font-size: 4rem;
+    font-weight: bold;
+
+}
+.showData .desc{
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+.nav{
+    width: 100%;
+    color: grey;
+    height: 50px;
+    background-color: skyblue;
+    text-align: right;
+    padding: 10px;
+    
+}
+.nav a{
+    /* margin: 10px 0; */
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 1px solid black;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.nav a:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
